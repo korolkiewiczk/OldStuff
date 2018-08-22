@@ -1,0 +1,45 @@
+/var
+/wordsize 1
+  $p1iextra=0
+  $pval=0
+  $pa=1
+  $zero=0
+/endvar
+
+/script script01
+  /const p1x=10
+  /const p1y=10
+  /const b1x=20
+  /const b1y=20
+  /const b1t=4
+  #ifnotuseexit
+  #getcellinfoextra ($p1x,$p1y,0,$p1iextra)
+  #bsetval ($pval,0)
+  #bcompval ($p1iextra,$pval)
+  #jumpa (@b1yesl1)
+  @b1nojmp:
+           //dla 0 ustaw 1
+           #bsetval ($p1iextra,1);
+           //ustawianie infa
+           #setcellinfoextra ($p1x,$p1y,0,$p1iextra)
+           //ustawianie komorki docelowej
+           #setcell ($b1x,$b1y,1,$b1t)
+           //ustawianie tekstury przycisku
+           #getcell ($p1x,$p1y,1,$pval)
+           #baddval ($pval,$pa)
+           #setcell ($p1x,$p1y,1,$pval)
+           //wychodzimy z procedury
+           #exit
+  @b1yesl1:
+           //dla 1 ustaw 0
+           #bsetval ($p1iextra,0);
+           //ustawianie infa
+           #setcellinfoextra ($p1x,$p1y,0,$p1iextra)
+           //ustawianie komorki docelowej
+           #setcell ($b1x,$b1y,1,$zero)
+           //ustawianie tekstury przycisku
+           #getcell ($p1x,$p1y,1,$pval)
+           #bsubval ($pval,$pa)
+           #setcell ($p1x,$p1y,1,$pval)
+  /---
+/endscript script01

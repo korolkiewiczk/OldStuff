@@ -1,0 +1,53 @@
+//  RESOURCE IDENTIFIER
+NAME FTET    // 4 letter ID
+
+
+//  INCLUDES
+#include <eikon.rh>
+#include <avkon.rh>
+#include <avkon.rsg>
+#include <appinfo.rh>
+
+//  RESOURCE DEFINITIONS
+// -----------------------------------------------------------------------------
+//
+//    Define the resource file signature
+//    This resource should be empty.
+//
+// -----------------------------------------------------------------------------
+//
+RESOURCE RSS_SIGNATURE
+{
+}
+
+// -----------------------------------------------------------------------------
+//
+//    Default Document Name
+//
+// -----------------------------------------------------------------------------
+//
+RESOURCE TBUF
+{
+ buf="freeTetris";
+}
+
+
+RESOURCE EIK_APP_INFO
+{
+}
+
+RESOURCE LOCALISABLE_APP_INFO r_freetetris_localisable_app_info
+{
+    short_caption = "freeTetris";
+    caption_and_icon = 
+    CAPTION_AND_ICON_INFO
+        {
+        caption = "freeTetris";
+
+        number_of_icons = 1;
+	   	icon_file = "\\resource\\apps\\freeTetris.mif";
+	    };
+    }
+
+// End of File
+

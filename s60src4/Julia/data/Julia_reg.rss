@@ -1,0 +1,11 @@
+#include <appinfo.rh>
+
+UID2 KUidAppRegistrationResourceFile
+UID3 0xAD644914
+
+RESOURCE APP_REGISTRATION_INFO
+{
+ app_file="Julia";
+ localisable_resource_file="\\resource\\apps\\Julia";
+}
+

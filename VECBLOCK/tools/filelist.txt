@@ -1,0 +1,6 @@
+bm1.bmp
+bm2.bmp
+ok.bmp
+no.bmp
+fnt(5x5).bin
+conbmp.bmp

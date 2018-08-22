@@ -1,0 +1,20 @@
+F_X.PAS - Modul do rysowania funkcji 2D i 3D
+Funkcje i procedury:
+-Inicjacja
+ function Init_f_x(gmode:integer) : boolean;
+ procedure Close_f_x;
+-rysowanie funkcji w 2D 
+ procedure Draw_OXY;
+ procedure Draw_f_x(f:tf_x);             {rysuje funkcje f}
+ procedure Draw_df_x(f:tf_x);            {rysuje I pochodna funkcji f}
+ procedure Draw_fd_x(f:tf_x);            {rysuje I pierwotna funkcji f}
+-rysowanie funkcji w 3D:
+
+ procedure Init3df_xy;	{inicjuje tryb 3D}
+ procedure Draw_OXYZ;	{rysuje 3D uklad wsp.}
+ procedure Draw_3df_xy(f:tf_xy);	{rysuje funkcje f w 3D}
+
+
+TESTFX.PAS - przklad uzycia modulu f. w 2D
+TESTFX3D.PAS - przklad uzycia modulu f. w 3D
+W,S,A,D,E,Q-sterowanie 

@@ -1,0 +1,43 @@
+----------
+v. 0.9
+----------
+-obsloga przerwan 10h,16h,21h
+-selektory kodu,danych oraz zerowy (adr:00000000h)
+
+----------
+v. 1.0
+----------
+-poprawiona obsloga przerwan 10h,16h,21h
+-poprawione bledy w kodzie inicjujacym
+
+----------
+v. 1.01
+----------
+-dodanie publicznych selektorow: kodu,danych i zerowego oraz wersji dpmi
+
+----------
+v. 1.02
+----------
+-dodanie adresu bazowego kodu i danych
+
+----------
+v. 1.03
+----------
+-dodanie segmentu stosu trybu rzeczywistego
+-upublicznienie segmentu danych i stosu trybu rzeczywistego
+
+----------
+v. 1.04
+----------
+-upublicznienie selektora psp
+
+----------
+v. 1.05
+----------
+-dodanie zerowego selektora kodu
+
+----------
+v. 1.1
+----------
+-dodanie identyfikacji procesora
+-zerowanie rejestrow przed wejsciem do programu

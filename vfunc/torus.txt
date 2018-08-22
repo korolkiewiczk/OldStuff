@@ -1,0 +1,5 @@
+S f42210
+-pi pi -pi pi 50
+(3+cos(s))*cos(t)
+(3+cos(s))*sin(t)
+(sin(s))

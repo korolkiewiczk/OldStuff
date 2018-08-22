@@ -1,0 +1,14 @@
+/var
+  $abc
+  /wordsize 4
+  $abc2=10
+/endvar
+/const aa=10
+/script a
+  #ifnotuseexit
+  #setcell ($abc2,$abc,$aa,12)
+  @l:
+  //aaa
+  #setcell (@l,1,2,3)
+  /code 255
+/endscript

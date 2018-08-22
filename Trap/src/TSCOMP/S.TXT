@@ -1,0 +1,9 @@
+struktura:
+
+TRAP SCRIPT#0
+for 1 to sˆowo do
+begin
+     cztaj nazw© procedury zakoäczonej na #0
+     czytaj sˆowo oznaczj¥ce pozycje w pliku
+end
+czytaj kod

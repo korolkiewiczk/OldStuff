@@ -1,0 +1,24 @@
+TARGET            template.dll
+TARGETTYPE        dll
+UID		  0x1000008d 0xA42D590C
+
+EPOCSTACKSIZE	  0x1000
+
+SOURCE            main.cpp
+
+
+SYSTEMINCLUDE     \epoc32\include
+SYSTEMINCLUDE     \epoc32\include\libc
+
+LIBRARY           estlib.lib
+
+LANG SC
+
+VENDORID	  	  0
+CAPABILITY	NONE
+
+deffile .\template.def
+nostrictdef
+
+// End of File
+

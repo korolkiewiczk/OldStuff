@@ -1,0 +1,5 @@
+S ff0000
+-1 1 -pi pi 50
+cos(s)
+t
+sin(s)

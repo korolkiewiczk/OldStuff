@@ -1,0 +1,6 @@
+5
+bm1.bmp 10 8
+bm2.bmp 6 6
+conbmp.bmp 320 200
+ok.bmp 8 8
+no.bmp 8 8

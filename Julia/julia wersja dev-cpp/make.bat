@@ -1,0 +1,1 @@
+E:\masm32\bin\ml -c -Fl -coff julia.obj julia.asm >err.txt

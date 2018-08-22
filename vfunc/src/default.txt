@@ -1,0 +1,25 @@
+S 800000ff
+-10 10 -10 10 100
+t
+s
+0.5*sin(t)*cos(s)+0.5
+S
+-4 4 -4 4 50
+t
+s
+sin(t-time)*cos(s-time)
+C ffaa
+-10 10 1000
+cos(t)
+sin(t)
+t
+C ff00
+-10 10 1000
+sin(t)
+cos(t)
+t
+C ffffaa
+-10 10 1000
+sin(t)
+cos(2t-time)
+t*(sin(time)+1.5)

@@ -1,0 +1,64 @@
+//  RESOURCE IDENTIFIER
+NAME BINV    // 4 letter ID
+
+
+//  INCLUDES
+#include <eikon.rh>
+#include <avkon.rh>
+#include <avkon.rsg>
+#include <appinfo.rh>
+
+#include <CommonDialogs.hrh>
+#include <CommonDialogs.rh>
+
+//  RESOURCE DEFINITIONS
+// -----------------------------------------------------------------------------
+//
+//    Define the resource file signature
+//    This resource should be empty.
+//
+// -----------------------------------------------------------------------------
+//
+RESOURCE RSS_SIGNATURE
+{
+}
+
+// -----------------------------------------------------------------------------
+//
+//    Default Document Name
+//
+// -----------------------------------------------------------------------------
+//
+RESOURCE TBUF
+{
+ buf="BinFView";
+}
+
+
+RESOURCE EIK_APP_INFO
+{
+}
+
+RESOURCE MEMORYSELECTIONDIALOG r_memory_selection_dialog
+{
+ locations=
+ {
+  LOCATION {root_path="C:\\";},
+  LOCATION {root_path="E:\\";}
+ };
+}
+
+RESOURCE LOCALISABLE_APP_INFO r_binfview_localisable_app_info
+{
+ short_caption="BinFView";
+ caption_and_icon=
+ CAPTION_AND_ICON_INFO
+ {
+  caption="BinFView";
+  number_of_icons=1;
+  icon_file="\\resource\\apps\\BinFView.mbm";
+ };
+}
+
+// End of File
+

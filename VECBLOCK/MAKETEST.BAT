@@ -1,0 +1,1 @@
+gcc t.c -O1 -o t.exe asm\asm_data.obj asm\asm_code.obj

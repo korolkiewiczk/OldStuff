@@ -1,0 +1,15 @@
+S f42210
+-pi pi -pi pi 50
+(6+cos(s-time))*cos(t-time)
+(6+cos(s-time))*sin(t-time)
+-(sin(time)^2+0.5)*t+(sin(s-time))
+S f46655
+pi 3pi -pi pi 50
+(6+cos(s-time))*cos(t-time)
+(6+cos(s-time))*sin(t-time)
+-(sin(time)^2+0.5)*t+(sin(s-time))
+S 4532ac
+3pi 6pi -pi pi 50
+(6+cos(s-time))*cos(t-time)
+(6+cos(s-time))*sin(t-time)
+-(sin(time)^2+0.5)*t+(sin(s-time))

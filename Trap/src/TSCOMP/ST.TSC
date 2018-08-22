@@ -1,0 +1,171 @@
+/var
+/wordsize 1
+  $przycisk1iextra=0
+  $pval=0
+  $pa=1
+  $zero=0
+/endvar
+
+/script blok1
+  /const przycisk1x=1
+  /const przycisk1y=7
+  /const blok1x=3
+  /const blok1y=4
+  /const blok1y1=5
+  /const blok1t=31
+  #ifnotuseexit
+  #getcellinfoextra ($przycisk1x,$przycisk1y,0,$przycisk1iextra)
+  #bsetval ($pval,0)
+  #bcompval ($przycisk1iextra,$pval)
+  #jumpa (@blok1yesl1)
+  @blok1nojmp:
+           //dla 0 ustaw 1
+           #bsetval ($przycisk1iextra,1);
+           //ustawianie infa
+           #setcellinfoextra ($przycisk1x,$przycisk1y,0,$przycisk1iextra)
+           //ustawianie komorki docelowej
+           #bsetval ($pval,$blok1t)
+           #setcell ($blok1x,$blok1y,1,$pval)
+           #setcell ($blok1x,$blok1y1,1,$pval)
+           //ustawianie tekstury przycisku
+           #getcell ($przycisk1x,$przycisk1y,1,$pval)
+           #bsubval ($pval,$pa)
+           #setcell ($przycisk1x,$przycisk1y,1,$pval)
+           //wychodzimy z procedury
+           #exit
+  @blok1yesl1:
+           //dla 1 ustaw 0
+           #bsetval ($przycisk1iextra,0);
+           //ustawianie infa
+           #setcellinfoextra ($przycisk1x,$przycisk1y,0,$przycisk1iextra)
+           //ustawianie komorki docelowej
+           #setcell ($blok1x,$blok1y,1,$zero)
+           #setcell ($blok1x,$blok1y1,1,$zero)
+           //ustawianie tekstury przycisku
+           #getcell ($przycisk1x,$przycisk1y,1,$pval)
+           #baddval ($pval,$pa)
+           #setcell ($przycisk1x,$przycisk1y,1,$pval)
+  /---
+/endscript blok1
+
+/------------
+
+/var
+/wordsize 1
+  $first1=0
+  $cell1=0
+/wordsize 4
+  $timer1=0
+  $maxtime1=1000
+/endvar
+
+/script skryptc
+  #bcompval ($first1,$zero)
+  #jumpa (@skryptc_d1)
+  #bsetval ($first1,1)
+  #starttimer (0)
+  @skryptc_d1:
+  #stoptimer (0,$timer1)
+  #dcompval ($timer1,$maxtime1)
+  #jumpb (@endskryptc)
+  #starttimer (0)
+  #getcell (5,4,1,$cell1)
+  #bcompval ($cell1,$zero)
+  #jumpe (@d2)
+  #setcell (5,4,1,$zero);
+  #setcell (5,5,1,$zero);
+  #jump (@endskryptc)
+  @d2:
+  #bsetval ($cell1,4);
+  #setcell (5,4,1,$cell1);
+  #setcell (5,5,1,$cell1);
+  @endskryptc:
+/endscript skryptc
+
+/------------
+
+/var
+/wordsize 1
+  $ovis1
+  $ofd1
+  $ot1
+  $f1
+  $ofirst1
+  $nr1
+  $pv1
+  $1=1
+/wordsize 4
+  $omaxtimer=1200
+/endvar
+
+/script ownscript
+  #bcompval ($ofirst1,$zero)
+  #jumpa (@od1)
+  #bsetval ($ofirst1,1)
+  #starttimer (1)
+  //
+  @od1:
+  #stoptimer (1,$timer1)
+  #dcompval ($timer1,$omaxtimer)
+  #jumpb (@osend)
+  #useownxyc (1)
+  #getcellinfostate (0,0,0,$ovis1,$ofd1,$ot1,$f1)
+  #bcompval ($ovis1,$zero)
+  #jumpa (@jumpos1)
+  @nojumpos1:
+             #baddval ($ovis1,$pa)
+             #bsubval ($ot1,$pa)
+             #setcellinfostate (0,0,0,$ovis1,$ofd1,$ot1,$f1)
+             #jump (@onjq1)
+  @jumpos1:
+           #bsubval ($ovis1,$pa)
+           #baddval ($ot1,$pa)
+           #setcellinfostate (0,0,0,$ovis1,$ofd1,$ot1,$f1)
+  @onjq1:
+  #bcompval ($nr1,$1)
+  #jumpb (@osend)
+  //
+  #starttimer (1)
+  @osend:
+  #bsetval ($pv1,1)
+  #bsubval ($pv1,$nr1)
+  #bmoveval ($nr1,$pv1)
+/endscript
+
+/var
+/wordsize 2
+  $randv1
+  $lr1=5000
+/wordsize 1
+  $c04
+  $s04l1
+  $s04l2
+  $m=200
+  $m1=201
+  $_6=6
+/endvar
+
+/script s04
+  #bcompval ($s04l2,$m)
+  #jumpb (@s04q)
+  #useownxyc (2)
+  #random (10000,$randv1)
+  #wcompval ($randv1,$lr1)
+  #jumpa (@s04d1)
+  #bsetval ($c04,0)
+  #setcell (0,0,0,$c04)
+  #jump (@s04q)
+  @s04d1:
+  #bsetval ($c04,4)
+  #setcell (0,0,0,$c04)
+  @s04q:
+  #baddval ($s04l1,$pa)
+  #bcompval ($s04l1,$_6)
+  #jumpb (@s04q2)
+  #bsetval ($s04l1,0)
+  #baddval ($s04l2,$pa)
+  #bcompval ($s04l2,$m1)
+  #jumpb (@s04q2)
+  #bsetval ($s04l2,0)
+  @s04q2:
+/endscript

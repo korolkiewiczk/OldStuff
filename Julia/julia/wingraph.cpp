@@ -1,0 +1,1 @@
+Sorry, ale nie udostêpniam Ÿród³a poniewa¿ wersja tej biblioteki dla Visual Studio jest niedokoñczona.

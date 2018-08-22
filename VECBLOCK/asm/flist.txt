@@ -1,0 +1,14 @@
+xstub32.asm
+mcon.inc
+prc.inc
+vga.inc
+vesa.inc
+surface8.inc
+zerocpy.inc
+text8x8.inc
+fnt.inc
+kb.inc
+time.inc
+fade8.inc
+transp8.inc
+snd.inc

@@ -1,0 +1,37 @@
+//  RESOURCE IDENTIFIER
+NAME juli    // 4 letter ID
+
+
+//  INCLUDES
+#include <eikon.rh>
+
+//  RESOURCE DEFINITIONS
+// -----------------------------------------------------------------------------
+//
+//    Define the resource file signature
+//    This resource should be empty.
+//
+// -----------------------------------------------------------------------------
+//
+RESOURCE RSS_SIGNATURE
+{
+}
+
+// -----------------------------------------------------------------------------
+//
+//    Default Document Name
+//
+// -----------------------------------------------------------------------------
+//
+RESOURCE TBUF
+{
+ buf="Julia";
+}
+
+
+RESOURCE EIK_APP_INFO
+{
+}
+
+// End of File
+

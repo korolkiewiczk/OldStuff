@@ -1,0 +1,10 @@
+S
+-pi pi -1 1 50
+cos(t)
+sin(t)
+s
+S ff0000
+-1 1 -pi pi 10
+cos(s)
+t
+sin(s)

@@ -1,0 +1,19 @@
+'TRAPMAP'; nagˆ¢wek
+'MIDIMUS.MMM'; ASCIZ nazwa pliku z muzyk¥, '' je˜li brak
+'NAZWA MAPY'; ASCIZ z nazw¥ mapy
+trapmapsizex : word; szeroko˜† mapy
+trapmapsizey : word; wysoko˜† mapy
+nplayers : word; liczba graczy (1)
+players.playerpozx : word; pozycja x gracza
+players.playerpozy : word; pozycja y gracza
+players.state : byte; kierunek i pozycja gracza
+nmonsters : word; liczba przeciwnik¢w
+monsters.monsterpozx : word; pozycja x potwora
+monsters.monsterpozy : word; pozycja y potwora
+monsters.state : byte; kierunek i pozycja potwora
+monsters.monstertype : byte; typ potwora
+trapmap : sizeof (trapmaprecord)*trapmapsizex*trapmapsizey > trapmapsize*6 {exit}; wˆa˜ciwa mapa poziomu
+ntrapinforec : word; ilo˜† rekord¢w informacyjnych
+trapinforec; recordy informacyjne
+ntrapscrypts : word; ˆ¥czna dˆugo˜† skrypt¢w
+trapscrypts; ci¥g binarny skrypt¢w

@@ -1,0 +1,18 @@
+enter/spacja - postaw punkt,linie lub teksture
+alt - menu
+f1 - pomoc
+kursory - poruszanie sie po menu lub powierzni edycji
+esc - wyjscie
+ctr - przyspieszenie rysowania,wyboru koloru w trybie edycji
+tab - w trybie edycji przelanczanie miedzy trybem wuboru koloru a rysowaniem
+[ ] - wybor koloru
+1..8 - col = 32*1..8-1
+9 - col = 96
+0 - col = 0
+z - zaznacz
+x - wytnij
+c - kopiuj
+v - wklej
+a,s,d,f - wybor pisaka (piksel,pedzel,linia,tekstura)
+q,w - zmiejsz/zwieksz roznice kolorow dla trybu rysowania tekstura
+e,r - zmiejsz/zwieksz rozmiary tekstury dla trybu rysowania tekstura

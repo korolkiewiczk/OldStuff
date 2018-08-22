@@ -1,0 +1,5 @@
+S
+-pi pi -1 1 50
+s*cos(t)
+s*sin(t)
+s*s

@@ -1,0 +1,87 @@
+€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€
+€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€
+€€€€€€€€€€€€€€€€€€€€€ miniDZIA£O €€€€€€€€€€€€€€€€€€€€€€€€
+€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€
+€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€
+
+spis treœci:
+
+-----------------------------------
+1 gra                             |
+	€1.1 rozpoczêcie gry      |
+	€1.2 sterowanie           |
+	€1.3 zasady               |
+	€1.4 wyniki               |
+-----------------------------------
+-----------------------------------
+2 czêste problemy                 |
+	€2.1 problemy z grafik¹   |
+	€2.2 gra nie dzia³a!!!    |
+-----------------------------------
+-----------------------------------
+3 troche wiêcej o grze            |
+	€3.1 o autorze...         |
+	€3.2 ...i o samej grze    |
+-----------------------------------
+
+treœæ:
+
+1 gra
+
+
+€1.1 rozpoczêcie gry
+Po uruchomieniu gry uka¿e Ci siê przed oczami sygnaturka gry. Po naciœniêciu dowolnego klawisza wejdziesz do menu. Obs³uga wszystkich okien jest prosta. Naciskaj¹c klawisz odpowiadaj¹cy literze w nawiasie rozpoczynasz lub koñczysz grê.
+
+€1.2 sterowanie
+Sterowanie czo³giem (a raczej k¹tem i si³¹ strza³u) jest bardzo proste i nie powinno sprawiæ problemu:
+	strza³ka w góre - wiêkszy k¹t
+	strza³ka w dó³ - mniejszy k¹t
+	strza³ka w prawo - wiêksza si³a
+	strza³ka w lewo - mniejsza si³a
+	PageUp(PgUp) - si³a wiêksza o 30
+	PageDown(PgDn) - si³a mniejsza o 30
+Nale¿y równie¿ pamiêtaæ ¿e k¹t nie mo¿e przekroczyæ 0 i 90, a si³a 0 i 1000.
+
+€1.3 zasady
+Gra sk³ada siê z dwóch prób i 20 tur. Po 20 turach gra siê konczy (mo¿esz tak¿e grê skoñczyæ wczeœniej i zobaczyæ wyniki).Kiedy zaczniesz graæ zauwa¿ysz ¿e oprócz twojego (zielonego) czo³gu jest jeszcze jeden - czo³g przeciwnika(czerwony). Przeciwnik nie zdobywa punktów ale je¿eli trafi Twój czo³g to gra siê koñczy i (je¿eli chcesz) musisz rozpocz¹æ grê od nowa. Oczywiœcie Twoim zadaniem jest go wyeleminowaæ. Celny strza³ z Twojej strony oznacza 1 punkt i wiêksze szanse na "prze¿ycie". 
+Trafiony przeciwnik nie mo¿e strzelaæ w tej próbie. Warto zapamiêtaæ poprzednie wartoœci k¹ta i si³y poniewa¿ kiedy uda Ci siê celne trafiæ w pierwszej próbie to w drugiej wystarczy podaæ ten sam k¹t i si³e (w ka¿dej turze pozycje gracza i komputera nie zmieniaj¹ siê). Wiatr jest nastêpnym utrudnieniem. Si³a wiatru zmienia siê tylko po koñcu tury. Pora dnia nie ma nic do rzeczy w samej grze.
+To tyle o zasadach i oprawie gry. Mo¿na jeszcze wymieniæ poziomy trudoœci:
+	³atwy - przeciwnik losuje losowo si³e i k¹t
+	œredni - przeciwnik nieco dok³adniej losuje si³e i k¹t
+	trudny - przeciwnik jest ju¿ bardzo dok³adny
+Oczywiœcie tak naprawde wszystko zale¿y od szczêœcia. Przeciwnik na poziomie ³atwym mo¿e trafiæ ju¿ za pierszym razem, a na trudnym nie trafi do samego koñca gry. Dlatego mo¿emy spokojnie wybraæ poziom trudny.
+
+€1.4 wyniki
+W grze mo¿na zdobyæ maksymalnie 80 punków (oczywiœcie aby zdobyæ tyle punktów trzeba byæ doskona³ym w celnoœci). Po zakoñczeniu gry mo¿emy podziwiaæ swoje najlepsze osi¹gniêcia w grze. Je¿eli przegramy wyniki nie s¹ pokazywane i zapisywane.
+
+
+2 czêste problemy
+
+
+€2.1 problemy z grafik¹
+Ju¿ w czasie instalacji instalator wykrywa kartê graficzn¹. Je¿eli nie jest to karta VGA (lub zgodna z t¹ kart¹) to gra nie jest instalowana. Wiêc nie powinno byæ problemy z grafik¹ (gra dzia³a w rozdzielczoœci 640X480X16 kolorów). Mog¹ siê jednak przytrafiæ inne problemy, które s¹ opisane w nastêpnym pod rozdziale...
+
+€2.2 gra nie dzia³a!!!
+Gra dzia³a w systemie (lub trybie) MS-DOS. Problemy mog¹ siê pojawiæ w systemie windows : me,2000 i xp. Wiadomo o tym ¿e te systemy nie s¹ specjalnie zgodne z aplikacjami MS-DOS. Inne problemy nie powinny siê raczej zdarzaæ. Gra jest prosta i niz³o¿ona wiêc problemy  z gr¹ s¹ raczej rzadkoœci¹. Je¿eli masz jakiœ problem z gr¹ to mo¿esz mi wys³aæ e-mail'a (patrz nastêpny roŸdzia³). Nastêpny rozdzia³ nie jest konieczny do przeczytania.
+
+
+3 trochê wiêcej o grze
+
+€3.1 o autorze...
+Nazywam siê Kamil i jestem ch³opcem w wieku lat 12. Ta gra jest moj¹ pierwsz¹ wiêksz¹ gr¹. Oto moje namiary:
+
+
+
+		|---------------------------|
+		|miasto:Warszawa            |
+		|email:kor_cz@poczta.onet.pl|
+		|---------------------------|
+
+
+
+€3.2 ...i o samej grze
+Gra zosta³a napisana w turbo pascalu. Ca³¹ gre oczywiœcie napisa³em sam. Je¿eli chcesz przeczytaæ kod Ÿród³owy gry to zajrzyj do katalogu source w folderze gdzie mieœci siê program instalacyjny gry.
+
+
+
+miniDZIA£O jest gr¹ freeware.

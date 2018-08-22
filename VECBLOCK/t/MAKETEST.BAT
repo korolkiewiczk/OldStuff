@@ -1,0 +1,1 @@
+gcc f(x).c -O1 -o f(x).exe asm\asm_data.obj asm\asm_code.obj

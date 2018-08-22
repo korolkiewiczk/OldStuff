@@ -1,0 +1,299 @@
+# depslib dependency file v1.0
+1246970549 source:d:\moje dokumenty\c\func\engine.cpp
+	"engine.h"
+	<cmath>
+	<cstdio>
+	<gl/gl.h>
+	<gl/glu.h>
+
+1246970549 d:\moje dokumenty\c\func\engine.h
+	"text.h"
+
+1246824333 d:\moje dokumenty\c\func\text.h
+
+1246907077 source:d:\moje dokumenty\c\func\ff.cpp
+	"ff.h"
+
+1246906819 d:\moje dokumenty\c\func\ff.h
+	"func.h"
+
+1246907868 d:\moje dokumenty\c\func\func.h
+	<gl/gl.h>
+	"eval.h"
+
+1246625197 d:\moje dokumenty\c\func\feval\eval.h
+	<vector>
+	<stack>
+	"unit.h"
+	"flib.h"
+
+1246049873 d:\moje dokumenty\c\func\feval\unit.h
+
+1240083184 d:\moje dokumenty\c\func\feval\flib.h
+	<list>
+
+1247487732 source:d:\moje dokumenty\c\func\func.cpp
+	<cstring>
+	<string>
+	<windows.h>
+	<gl/gl.h>
+	"eval.cpp"
+	"func.h"
+	"common.h"
+
+1246877519 d:\moje dokumenty\c\func\feval\eval.cpp
+	<cstdlib>
+	<cstring>
+	<ctime>
+	<stack>
+	<vector>
+	<utility>
+	"unit.h"
+	"common.cpp"
+	"eval.h"
+	"slib.h"
+	"flib.cpp"
+
+1240083928 d:\moje dokumenty\c\func\feval\common.cpp
+	"common.h"
+	<cmath>
+
+1240156560 d:\moje dokumenty\c\func\feval\common.h
+	<iostream>
+
+1246877530 d:\moje dokumenty\c\func\feval\slib.h
+	<cmath>
+	<cstdlib>
+
+1246877260 d:\moje dokumenty\c\func\feval\flib.cpp
+	<cstring>
+	<list>
+	"common.h"
+	"flib.h"
+
+1247246026 d:\moje dokumenty\c\func\common.h
+
+1247487272 source:d:\moje dokumenty\c\func\main.cpp
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<cstdio>
+	<cmath>
+	"common.h"
+	"ff.h"
+	"engine.h"
+	"keymap.h"
+
+1230728146 d:\moje dokumenty\c\func\keymap.h
+
+1246824332 source:d:\moje dokumenty\c\func\text.cpp
+	<gl/gl.h>
+	<windows.h>
+	"text.h"
+
+1247487732 source:d:\moje dokumenty\c\func\common.cpp
+	"common.h"
+	<windows.h>
+	<gl/gl.h>
+	<stdio.h>
+
+1247496964 source:d:\moje dokumenty\c\vfunc\engine.cpp
+	"engine.h"
+	<cmath>
+	<cstdio>
+	<gl/gl.h>
+	<gl/glu.h>
+
+1246970549 d:\moje dokumenty\c\vfunc\engine.h
+	"text.h"
+
+1246824333 d:\moje dokumenty\c\vfunc\text.h
+
+1246907077 source:d:\moje dokumenty\c\vfunc\ff.cpp
+	"ff.h"
+
+1246906819 d:\moje dokumenty\c\vfunc\ff.h
+	"func.h"
+
+1246907868 d:\moje dokumenty\c\vfunc\func.h
+	<gl/gl.h>
+	"eval.h"
+
+1247487732 source:d:\moje dokumenty\c\vfunc\func.cpp
+	<cstring>
+	<string>
+	<windows.h>
+	<gl/gl.h>
+	"eval.cpp"
+	"func.h"
+	"common.h"
+
+1247498663 d:\moje dokumenty\c\vfunc\common.h
+
+1246824332 source:d:\moje dokumenty\c\vfunc\text.cpp
+	<gl/gl.h>
+	<windows.h>
+	"text.h"
+
+1246625197 d:\moje dokumenty\c\vfunc\feval\eval.h
+	<vector>
+	<stack>
+	"unit.h"
+	"flib.h"
+
+1246049873 d:\moje dokumenty\c\vfunc\feval\unit.h
+
+1240083184 d:\moje dokumenty\c\vfunc\feval\flib.h
+	<list>
+
+1246877519 d:\moje dokumenty\c\vfunc\feval\eval.cpp
+	<cstdlib>
+	<cstring>
+	<ctime>
+	<stack>
+	<vector>
+	<utility>
+	"unit.h"
+	"common.cpp"
+	"eval.h"
+	"slib.h"
+	"flib.cpp"
+
+1240083928 d:\moje dokumenty\c\vfunc\feval\common.cpp
+	"common.h"
+	<cmath>
+
+1240156560 d:\moje dokumenty\c\vfunc\feval\common.h
+	<iostream>
+
+1246877530 d:\moje dokumenty\c\vfunc\feval\slib.h
+	<cmath>
+	<cstdlib>
+
+1246877260 d:\moje dokumenty\c\vfunc\feval\flib.cpp
+	<cstring>
+	<list>
+	"common.h"
+	"flib.h"
+
+1247498930 source:d:\moje dokumenty\c\vfunc\main.cpp
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<cstdio>
+	<cmath>
+	"common.h"
+	"ff.h"
+	"engine.h"
+	"keymap.h"
+
+1230728146 d:\moje dokumenty\c\vfunc\keymap.h
+
+1247498655 source:d:\moje dokumenty\c\vfunc\common.cpp
+	"common.h"
+	<windows.h>
+	<gl/gl.h>
+	<stdio.h>
+
+1247497731 source:d:\moje dokumenty\c\vfunc\res.rc
+
+1247496966 source:e:\c\vfunc\engine.cpp
+	"engine.h"
+	<cmath>
+	<cstdio>
+	<gl/gl.h>
+	<gl/glu.h>
+
+1246970550 e:\c\vfunc\engine.h
+	"text.h"
+
+1246824334 e:\c\vfunc\text.h
+
+1246907078 source:e:\c\vfunc\ff.cpp
+	"ff.h"
+
+1246906820 e:\c\vfunc\ff.h
+	"func.h"
+
+1246907870 e:\c\vfunc\func.h
+	<gl/gl.h>
+	"eval.h"
+
+1246625198 e:\c\vfunc\feval\eval.h
+	<vector>
+	<stack>
+	"unit.h"
+	"flib.h"
+
+1246049874 e:\c\vfunc\feval\unit.h
+
+1240083184 e:\c\vfunc\feval\flib.h
+	<list>
+
+1247487734 source:e:\c\vfunc\func.cpp
+	<cstring>
+	<string>
+	<windows.h>
+	<gl/gl.h>
+	"eval.cpp"
+	"func.h"
+	"common.h"
+
+1246877520 e:\c\vfunc\feval\eval.cpp
+	<cstdlib>
+	<cstring>
+	<ctime>
+	<stack>
+	<vector>
+	<utility>
+	"unit.h"
+	"common.cpp"
+	"eval.h"
+	"slib.h"
+	"flib.cpp"
+
+1240083928 e:\c\vfunc\feval\common.cpp
+	"common.h"
+	<cmath>
+
+1240156560 e:\c\vfunc\feval\common.h
+	<iostream>
+
+1246877532 e:\c\vfunc\feval\slib.h
+	<cmath>
+	<cstdlib>
+
+1246877262 e:\c\vfunc\feval\flib.cpp
+	<cstring>
+	<list>
+	"common.h"
+	"flib.h"
+
+1247498664 e:\c\vfunc\common.h
+
+1247497732 source:e:\c\vfunc\res.rc
+
+1246824334 source:e:\c\vfunc\text.cpp
+	<gl/gl.h>
+	<windows.h>
+	"text.h"
+
+1247498656 source:e:\c\vfunc\common.cpp
+	"common.h"
+	<windows.h>
+	<gl/gl.h>
+	<stdio.h>
+
+1247735304 source:e:\c\vfunc\main.cpp
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<cstdio>
+	<cmath>
+	"common.h"
+	"ff.h"
+	"engine.h"
+	"keymap.h"
+
+1230728146 e:\c\vfunc\keymap.h
+

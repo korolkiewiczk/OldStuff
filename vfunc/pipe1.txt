@@ -1,0 +1,5 @@
+S f42210
+-pi*5 pi*5 -pi*5 pi*5 100
+(6+cos(s-time))*cos(t-time)
+(6+cos(s-time))*sin(t-time)
+-(sin(time)^2+0.5)*t+(sin(s-time))

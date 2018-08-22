@@ -1,0 +1,37 @@
+exit 0 0
+ifnotuseexit 0 1
+setcell 4 w w b w 2
+getcell 4 w w b w 3
+setcellinfoxy 5 w w b w w 4
+getcellinfoxy 5 w w b w w 5
+setcellinfostate 7 w w b w w w w 6
+getcellinfostate 7 w w b w w w w 7
+setcellinfoextra 4 w w b w 8
+getcellinfoextra 4 w w b w 9
+setinfo 6 b w w w w w 10
+getinfo 6 b w w w w w 11
+bmoveval 2 w w 12
+wmoveval 2 w w 13
+dmoveval 2 w w 14
+bsetval 2 w b 15
+wsetval 2 w w 16
+dsetval 2 w d 17
+baddval 2 w w 18
+waddval 2 w w 19
+daddval 2 w w 20
+bsubval 2 w w 21
+wsubval 2 w w 22
+dsubval 2 w w 23
+bcompval 2 w w 24
+wcompval 2 w w 25
+dcompval 2 w w 26
+jump 1 w 27
+jumpe 1 w 28
+jumpb 1 w 29
+jumpa 1 w 30
+jumpbe 1 w 31
+jumpae 1 w 32
+useownxyc 1 b 33
+starttimer 1 b 34
+stoptimer 2 b w 35
+random 2 w w 36

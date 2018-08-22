@@ -1,0 +1,136 @@
+//  RESOURCE IDENTIFIER
+NAME EXPR    // 4 letter ID
+
+
+//  INCLUDES
+#include <eikon.rh>
+#include <avkon.rh>
+#include <avkon.rsg>
+#include <appinfo.rh>
+
+#include <CommonDialogs.hrh>
+#include <CommonDialogs.rh>
+
+//  RESOURCE DEFINITIONS
+// -----------------------------------------------------------------------------
+//
+//    Define the resource file signature
+//    This resource should be empty.
+//
+// -----------------------------------------------------------------------------
+//
+RESOURCE RSS_SIGNATURE
+{
+}
+
+// -----------------------------------------------------------------------------
+//
+//    Default Document Name
+//
+// -----------------------------------------------------------------------------
+//
+RESOURCE TBUF
+{
+ buf="Expr";
+}
+
+RESOURCE EIK_APP_INFO
+{
+ menubar=r_main_menubar;
+ cba=R_AVKON_SOFTKEYS_OPTIONS_EXIT;
+}
+
+RESOURCE MENU_BAR r_main_menubar
+{
+ titles =
+ {
+  MENU_TITLE {menu_pane=r_main_menu; txt="menu";}
+ };
+}
+
+RESOURCE MENU_PANE r_main_menu
+{
+}
+
+//FILE 
+RESOURCE MENU_PANE r_file_menu
+{
+
+}
+
+RESOURCE MENU_PANE r_file_window_menu
+{
+}
+
+RESOURCE MENU_PANE r_file_color_menu
+{
+}
+
+
+//CON
+RESOURCE MENU_PANE r_con_menu
+{
+}
+
+RESOURCE MENU_PANE r_con_fontsize_menu
+{
+}
+
+//GRAPH
+RESOURCE MENU_PANE r_graph_menu
+{
+}
+
+RESOURCE MENU_PANE r_graph_drawingmode_menu
+{
+}
+
+RESOURCE MENU_PANE r_graph_3doptions_menu
+{
+}
+
+RESOURCE MENU_PANE r_graph_3doptions_renderer_menu
+{
+}
+
+RESOURCE MENU_PANE r_graph_parametricfunctionoptions_menu
+{
+}
+
+RESOURCE MENU_PANE r_graph_physicsmodel_menu
+{
+}
+
+//SOUND
+RESOURCE MENU_PANE r_sound_menu
+{
+}
+
+RESOURCE MENU_PANE r_help_menu
+{
+}
+
+RESOURCE MEMORYSELECTIONDIALOG r_memory_selection_dialog
+{
+ locations=
+ {
+  LOCATION {root_path="C:\\";},
+  LOCATION {root_path="E:\\";}
+ };
+}
+
+RESOURCE LOCALISABLE_APP_INFO r_expr_localisable_app_info
+{
+ short_caption="Expr";
+ caption_and_icon=
+ CAPTION_AND_ICON_INFO
+ {
+  caption="Expr";
+  number_of_icons=1;
+  icon_file="\\resource\\apps\\expr.mbm";
+ };
+}
+  
+
+// End of File
+

@@ -1,0 +1,64 @@
+//sin(dist(2sin(4x)+2.1cos(y),3cos(3y-sin(3x))-2sin(3x+cos(y))))^2
+tex_load(0,"tex.bmp")
+//tex_load(3,"tex2.bmp")
+print("EXPR BY KAMIL KOROLKIEWICZ 2008\nPress F1 for help, F5 for graph mode, F4 for console")
+echo(1)
+//mode(1)
+sin(dist(x,y))-2
+//echo(1)
+//x-2
+//color(1)
+loadlib("bmp")
+bmp_load("tex.bmp")
+10bmp_peek_smooth(x,y)
+bmp_peek_smooth(x+sin(y-time),y+cos(x-time))
+//bmp_peek_smooth(x*cos(time)-y*sin(time)+BMP_WIDTH/2,x*sin(time)+y*cos(time)+BMP_HEIGHT/2)
+
+//sin(x)
+//mode(1)
+//abs(sin(sum("sin(x/i+time)+cos(y/i-time)",1,3)))
+//echo(1)
+sin(0.440*2*pi*x)
+//mode(2)
+sin(dist(x,y))-2
+//loadlib("fractal")
+//FRACTAL_MANDELBROT(x,y,100)
+abs(sin(6ifv(y>0,acos(x/dist(x,y)),-acos(x/dist(x,y))+2pi))*sin(dist(x,y)))
+file("s.wav",x+38sin(0.005x))-0.5
+tex_load(3,'tex4.bmp')
+tex_setalpha(0,0.5)
+tex_setalpha(3,0.5)
+/color(0)
+//100bmp_peek_smooth(x,y)
+//color(3)
+//0.1(sin(x-time)+cos(y+time))+10
+sin(dist(x,y))-2
+//>tex_func1(0,"x*y+time",-5,5,5,-5)
+//>tex_func3(0,"x*y+time","2x*y-1.2time","3x*y-0.2time",-5,5,5,-5)
+//f_begin('cf',1)
+//abs(sin(_1*ifv(y>0,acos(x/dist(x,y)),-acos(x/dist(x,y))+2pi))*sin(dist(x,y)))
+//f_end()
+//tex_func4(0,"cf(6)","cf(8)","cf(12)","cf(15)",-3,3,3,-3)
+//0
+//print("01234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()_+-=[]{};':\",.<>/?\|")
+//mode(2)
+//shell('dir')
+//2(abs(x-y)<2)
+
+//loadlib ('obj')
+///obj_load(0,'obj/test6.obj')
+///obj_setcol(0,0.8,0.7,0.1,1)
+//>obj_draw(0)
+//0
+///color(3)
+//sin(dist(x,y))
+
+loadlib('ip')
+//ip_set(0,"-5 -4 -3 -2 -1 0 1 2 3 4 5","5 4 3 2 1 0 1 2 3 4 5")
+//ip_set2(0,"-5 -4 -3 -2 -1 0 1 2 3 4 5","5 4 3 2 1 0 1 2 3 4 5")
+ip_set(0,"0 0.9888    0.8860    0.6862    0.4113    0.0913   -0.2387   -0.5425 -0.7870   -0.9452   -1.0000","0 0.9888    0.8860    0.6862    0.4113    0.0913   0.2387   0.5425 0.7870   0.9452   1.0000")
+ip_pol(0,x)
+/color(7)
+abs(x)
+
+//ip_pol2(0,x)

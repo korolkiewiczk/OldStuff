@@ -1,0 +1,75 @@
+Flagi:
+0-rozmiar danych(b/w,d)             [D]
+1-rozmiar-prefix 66h (w/d)          [DP]
+2-rozmiar pamiec-prefix 67h (w/d)   [MP]
+3-ile parametrow-1                  [CP]
+4-wartosc relatywna(zalezna od poz) [REL]
+5-prefix ES                         [ES]
+6-prefix CS                         [CS]
+7-prefix SS                         [SS]
+8-prefix DS                         [DS]
+9-prefix FS                         [FS]
+10-prefix GS                        [GS]
+11-prefix LOCK                      [LOCK]
+12-prefix REPNE                     [REPNE]
+13-prefix REP                       [REP]
+14-kierunek                         [DIR]
+15-czy sa parametry                 [PAR]
+16-czy bedzie wart. bezposr.        [IMM]
+17-czy far                          [FAR]
+18-operand typu seg:ofs             [PTR]
+19-podwojny immed (16 i 8)          [DIMM]
+20-immed jako adres                 [MIMM]
+21-immed jako bajt (razem z IMM)    [IMMB]
+22-argument 1 jako slowo            [PAR1D]
+23-argument 2 jako slowo            [PAR2D]
+PAR1D+PAR2D-parametr 2 jako bajt    [PAR2B]
+24-ciag zawiera formatowanie        [FORMS]
+25-immed ma wartosc 1 (razem z IMM) [IMM1]
+26-dodatkowy parametr cl            [XCL]
+27-pamiec sword (48bit)             [SW]
+27+SD pamiec tword (96bit)          [TW]
+28-pamiec word                      [W]
+28+SD-pamiec dword (bez 66h)        [DW]
+29 pamiec qword (64bit)             [QW]
+29+SD-pamiec dqword (128bit)        [DQW]
+30-par. dla poprz. lub pam. bajt    [SD]
+
+Duzo z opcji dotyczy tylko disasemblera
+
+*opcje zalezne od flagi D
+
+
+Parametry (0-15 + 16-31):
+4-7 - typ (0-rej,1-pam)
+0-3(rej):
+0-rej. podstawowe
+1-rej. segmentowe
+2-rej. fpu
+3-rej. systemowe: cr
+4-rej. systemowe: dr
+5-rej. mmx
+6-rej. xmm
+0-3(pam):
+0-pam.
+1-pam. +8
+2-pam. +16/32
+
+8-15:
+Numer porzadkowy rejestru czy typu adresowania w tablicy.
+Dla pam wedlug tabeli intela (wykorzystanie funkcji w tablicy)
+
+uklad odpowiada: instr (0-15),(16-31) (chyba ze DIR=1)
+
+Numer 1 parametru=DIR
+Ilosc parametrow=CP
+
+
+
+Nazwy funkcji:
+"nazwa[*/|/$]
+*-jesli rozmiar slowa = 4 to d, inaczej w
+#-jesli rozmiar slowa = 4 to d inaczej bez niczego
+|-wybor miedzy ciagami w zaleznosci od rozmiar slowa = 4
+$-jesli rozmiar slowa = 4 to e inaczej bez niczego
+Formatowanie moze wystapic 1 raz

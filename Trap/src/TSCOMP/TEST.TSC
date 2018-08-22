@@ -1,0 +1,18 @@
+//scrypt napisany przez................
+
+/var
+    $abc
+    $abc2=10
+    /code 123
+    $string="Kamil Korolkiewicz"
+    $str="Kam abcdefghijklmnopqrstu"
+/endvar
+
+/script a
+        #ifnotuseexit
+        #setcell ($string,$str,$abc,$abc2)
+/endscript a
+
+/script b
+        #ifnotuseexit
+/endscript b

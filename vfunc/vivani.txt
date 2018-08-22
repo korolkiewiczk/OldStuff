@@ -1,0 +1,5 @@
+C
+-pi pi 1000
+cos(t)*cos(t)
+sin(t)*cos(t)
+sin(t)

@@ -1,0 +1,125 @@
+/var
+  /wordsize 4
+  $pt
+  $stime=3000
+  /wordsize 1
+  $first
+  $zero
+  $1=1
+  $btex=4
+  /wordsize 2
+  $randv
+/endvar
+
+/script main
+  #bcompval ($first,$zero)
+  #jumpa (@maind1)
+  #starttimer (0)
+  #bsetval ($first,$1)
+  @maind1:
+  #stoptimer (0,$pt)
+  #dcompval ($pt,$stime)
+  #jumpb (@mainq)
+  //
+  #random (2,$randv)
+  #bcompval ($randv,$zero)
+  #jumpa (@main001d1)
+  #setcell (5,21,1,$btex)
+  #jump (@main001d2)
+  @main001d1:
+  #setcell (5,21,1,$zero)
+  @main001d2:
+  //
+  #random (2,$randv)
+  #bcompval ($randv,$zero)
+  #jumpa (@main002d1)
+  #setcell (7,20,1,$btex)
+  #jump (@main002d2)
+  @main002d1:
+  #setcell (7,20,1,$zero)
+  @main002d2:
+  //
+  #random (2,$randv)
+  #bcompval ($randv,$zero)
+  #jumpa (@main003d1)
+  #setcell (24,23,1,$btex)
+  #jump (@main003d2)
+  @main003d1:
+  #setcell (24,23,1,$zero)
+  @main003d2:
+  //
+  #random (2,$randv)
+  #bcompval ($randv,$zero)
+  #jumpa (@main004d1)
+  #setcell (26,24,1,$btex)
+  #jump (@main004d2)
+  @main004d1:
+  #setcell (26,24,1,$zero)
+  @main004d2:
+  //
+  #random (2,$randv)
+  #bcompval ($randv,$zero)
+  #jumpa (@main005d1)
+  #setcell (27,27,1,$btex)
+  #jump (@main005d2)
+  @main005d1:
+  #setcell (27,27,1,$zero)
+  @main005d2:
+  //
+  #random (2,$randv)
+  #bcompval ($randv,$zero)
+  #jumpa (@main006d1)
+  #setcell (25,30,1,$btex)
+  #jump (@main006d2)
+  @main006d1:
+  #setcell (25,30,1,$zero)
+  @main006d2:
+  //
+  #random (2,$randv)
+  #bcompval ($randv,$zero)
+  #jumpa (@main007d1)
+  #setcell (23,33,1,$btex)
+  #jump (@main007d2)
+  @main007d1:
+  #setcell (23,33,1,$zero)
+  @main007d2:
+  //
+  #random (2,$randv)
+  #bcompval ($randv,$zero)
+  #jumpa (@main008d1)
+  #setcell (21,36,1,$btex)
+  #jump (@main008d2)
+  @main008d1:
+  #setcell (21,36,1,$zero)
+  @main008d2:
+  //
+  #random (2,$randv)
+  #bcompval ($randv,$zero)
+  #jumpa (@main009d1)
+  #setcell (19,39,1,$btex)
+  #jump (@main009d2)
+  @main009d1:
+  #setcell (19,39,1,$zero)
+  @main009d2:
+  //
+  #random (2,$randv)
+  #bcompval ($randv,$zero)
+  #jumpa (@main010d1)
+  #setcell (17,39,1,$btex)
+  #jump (@main010d2)
+  @main010d1:
+  #setcell (17,39,1,$zero)
+  @main010d2:
+  //
+  #random (2,$randv)
+  #bcompval ($randv,$zero)
+  #jumpa (@main011d1)
+  #setcell (14,39,1,$btex)
+  #jump (@main011d2)
+  @main011d1:
+  #setcell (14,39,1,$zero)
+  @main011d2:
+  //
+  #starttimer (0)
+  @mainq:
+/endscript main

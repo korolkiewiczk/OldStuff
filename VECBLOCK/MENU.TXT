@@ -1,0 +1,28 @@
+:start
+<"Abc" action=":sekcja1" alt="ABC	D0123456789!@#$%^&*()_+|{}:<>?-=[];',./~`">
+<"Tryb" action="setvidmode(1)" alt="sdfgg fdg df g dfgd fg df">
+<"Tryb2" hidden="1" action="setvidmode(2)|setbrightness(10)" alt="Kamil Korolkiewicz ze szkoly ... itd... itp... abc">
+:sekcja1
+<" EFg fg" type="bar" vref="$abc" bar="-15 200 5" alt="abcdefghijkl mnoppqrstuvwxyzf df">
+<"Lista" list="'abc','0', '320x200','setvidmode(0)',  '640x480','setvidmode(2)','800x600','setvidmode(3)','1024x768','setvidmode(4)','1280x1024','setvidmode(5)'">
+<"brightness" bar="-40 40 1" vref="$br" action="`setbrightness($br)">
+<"fdhghfhfgh" type="var" vref="$abc" bar="0 1 1" action="`setvidmode($abc+2)">
+<"pam" var="0 10000000 256" vref="fnt" alt="abcdefghijklmnopqrstuvwxyz1234567890">
+<"onoff" type="onoff" vref="abc">
+<"sdd" action=":sekcjaa">
+<  "asdsd" action=":sekcjanta"  >
+:sekcjanta
+<"asas" action=":start" vref="gt" var="0 12334234 1">
+:sekcjaa
+<"1" alt="Epitet - wyraz okreslaj¹cy rzeczownik. Wzbogaca styl upiêksza. Wyra¿ony przymiotnikiem, rzeczownikiem i imies³owem. 
+
+Porównanie - jedna z najczêstszych figur stylistycznych sk³adaj¹ca siê z dwóch cz³onów po³¹czonych wyrazem porównuj¹cym.
+
+Metafora - przenoœnia - wyra¿enie w którym wyrazy ulegaj¹ przekszta³ceniom znaczeniowym uzyskuj¹ inny sens. 
+
+Kontrast - przeciwieñstwo sprzecznoœci ostro wydatniona ró¿nica
+
+Symbol - znak umowny dwup³aszczyznowe znaczenie ragmentu œwita przedstawionego, jednorazowe,uchwytne dla jednego utworu.">
+<"2">
+<"asdsds\n\fgfdgfg\n\n">
+<"sdf">

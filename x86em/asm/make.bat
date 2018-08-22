@@ -1,0 +1,1 @@
+ml -c -Fl -coff asm_code.asm asm_code.obj asm_data.asm asm_data.obj >err.txt

@@ -1,0 +1,27 @@
+#1: 0..127 textura; bit 7 efekty 1
+#2: 0..63 textura; 64..127 sprite; 128..191 animacja; 192..223 item; 224..254 gun; 255 brak ale uzywane;
+#3: 0..63 textura; 64..127 sprite; 128..191 animacja; 192..223 item; 224..254 gun; 255 brak ale uzywane;
+#4: bity 0..4 (0..31) fade; bity 5..6 (0..4) woda; bit 7 efekty 2
+#5: 0..254 info #2; 255-sprite/animacja nie jest sciana
+#6: 0..254 info #3; 255-sprite/animacja nie jest sciana
+0-brak textury itd.
+
+process:
+#2--->#5: info=0 tak---> dalej
+          |----- nie---> pobierz record info = info*sizeof (inforec) i wykonaj skrypt
+#3--->#6: info=0 tak---> dalej
+          |----- nie---> pobierz record info = info*sizeof (inforec) i wykonaj skrypt
+
+info=255 brak sciany
+info=254 drabina
+info=253 drzwi
+info=252 czerwone drzwi
+info=251 niebieskie drzwi
+info=250 zolte drzwi
+
+render:
+#1--->draw (pozx,pozy);
+#2--->#5: info=0 tak---> if #2 in 0..127 then tex (pozx,pozy) else if #2 in 128..191 then sprtex (pozx,pozy)...
+          |----- nie---> pobierz record info = info*sizeof (inforec) i if #2 in 0..127 then tex (pozx+objectpozx,pozy+objectpozy) else if #3 in 128..191 then sprtex (pozx+objectpozx,pozy+objectpozy)...
+#3--->#6: info=0 tak---> if #3 in 0..127 then tex (pozx,pozy) else if #3 in 128..191 then sprtex (pozx,pozy)...
+          |----- nie---> pobierz record info = info*sizeof (inforec) i if #3 in 0..127 then tex (pozx+objectpozx,pozy+objectpozy) else if #3 in 128..191 then sprtex (pozx+objectpozx,pozy+objectpozy)...

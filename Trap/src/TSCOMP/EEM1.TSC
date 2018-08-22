@@ -1,0 +1,107 @@
+//globalne
+
+/var
+/wordsize 1
+  $pval=0
+  $add1=1
+  $bltex00=0
+  $bltex03=3
+/endvar
+
+//lokalne
+
+/var
+/wordsize 1
+  $s001btex
+/endvar
+
+/script s001
+  /const s001blx=11
+  /const s001bly=6
+  /const s001bly+1=7
+  #ifnotuseexit
+  #useownxyc (1)
+  #getcellinfoextra (0,0,0,$s001btex)
+  #bsetval ($pval,0)
+  #bcompval ($s001btex,$pval)
+  #jumpa (@s004j001)
+  //:
+    //dla 0 ustaw 1
+    //ustawianie przycisku
+    #bsetval ($s001btex,1);
+    #setcellinfoextra (0,0,0,$s001btex)
+    #useownxyc (2)
+    #getcell (0,0,0,$pval)
+    #baddval ($pval,$add1)
+    #setcell (0,0,0,$pval)
+    //ustawianie komorki docelowej
+    #useownxyc (0)
+    #setcell ($s001blx,$s001bly,1,$bltex00)
+    #setcell ($s001blx,$s001bly+1,1,$bltex00)
+    //---
+    #exit
+  @s004j001:
+    //dla 1 ustaw 0
+    //ustawianie przycisku
+    #bsetval ($s001btex,0);
+    #setcellinfoextra (0,0,0,$s001btex)
+    #useownxyc (2)
+    #getcell (0,0,0,$pval)
+    #bsubval ($pval,$add1)
+    #setcell (0,0,0,$pval)
+    //ustawianie komorki docelowej
+    #useownxyc (0)
+    #setcell ($s001blx,$s001bly,1,$bltex03)
+    #setcell ($s001blx,$s001bly+1,1,$bltex03)
+  /---
+/endscript s001
+
+//---------------------------------------------------------------------------
+
+/var
+/wordsize 1
+  $s002btex
+/endvar
+
+/script s002
+  /const s002blx=14
+  /const s002bly=9
+  /const s002bly+1=10
+  #ifnotuseexit
+  #useownxyc (1)
+  #getcellinfoextra (0,0,0,$s002btex)
+  #bsetval ($pval,0)
+  #bcompval ($s002btex,$pval)
+  #jumpa (@s004j002)
+  //:
+    //dla 0 ustaw 1
+    //ustawianie przycisku
+    #bsetval ($s002btex,1);
+    #setcellinfoextra (0,0,0,$s002btex)
+    #useownxyc (2)
+    #getcell (0,0,0,$pval)
+    #baddval ($pval,$add1)
+    #setcell (0,0,0,$pval)
+    //ustawianie komorki docelowej
+    #useownxyc (0)
+    #setcell ($s002blx,$s002bly,1,$bltex00)
+    #setcell ($s002blx,$s002bly+1,1,$bltex00)
+    //---
+    #exit
+  @s004j002:
+    //dla 1 ustaw 0
+    //ustawianie przycisku
+    #bsetval ($s002btex,0);
+    #setcellinfoextra (0,0,0,$s002btex)
+    #useownxyc (2)
+    #getcell (0,0,0,$pval)
+    #bsubval ($pval,$add1)
+    #setcell (0,0,0,$pval)
+    //ustawianie komorki docelowej
+    #useownxyc (0)
+    #setcell ($s002blx,$s002bly,1,$bltex03)
+    #setcell ($s002blx,$s002bly+1,1,$bltex03)
+  /---
+/endscript s002
+
+//---------------------------------------------------------------------------

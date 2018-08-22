@@ -1,0 +1,86 @@
+Qread Copyright (c) Kamil Korolkiewicz 2004
+
+Cel programu:
+Eksperymentalny program do badania i nauki 
+szybkiego czytania.
+
+Rodzaj programu: freeware
+
+Idea programu:
+Udowodniono w wielu eksperymentach, ¿e 
+posiadamy zdolnoœæ czytania du¿o szybszego ni¿ 
+opanowaliœmy  w szkole. Na bazie tych odkryæ 
+powsta³y liczne podrêczniki i kursy szybkiego czytania. 
+Metody te, zw³aszcza podawane na zbiorowych 
+kursach, czêsto nie uwzglêdniaj¹ indywidualnych 
+mo¿liwoœci i preferencji ucznia. Nadto, coraz czêœciej 
+mamy do czynienia z tekstami elektronicznymi, gdzie 
+zalecane w kursach stosowanie wskaŸnika nie jest 
+wygodne, formaty informacji s¹ ró¿ne od ksi¹¿kowych, 
+a ilustracje, szpalty itp. utrudniaj¹ skupienie.
+Jedn¹ z zasad szybkiego czytania jest nie nawracanie 
+do przeczytanych s³ów oraz poszerzanie pola 
+widzenia. Ten drugi wymóg jest pocz¹tkowo trudny do 
+opanowania. Nasz program wyœwietla zadany tekst 
+sukcesywnie s³owo po s³owie lub zadanie po zdaniu. 
+Przejœcie do czytania zdania po zdaniu poszerza pole 
+widzenia, przy czym przez dobranie wielkoœci czcionki 
+uczeñ mo¿e to pole rozszerzaæ stopniowo.
+Program mo¿e s³u¿yæ tak¿e badaniu percepcji podprogowej.
+
+Qread umo¿liwia indywidualne dostosowywanie 
+parametrów czytania przez:
+- Dobranie koloru t³a i czcionki
+- Wybór wielkoœci i kroju czcionki
+- Wybór szybkoœci czytania (p³ynnie w czasie czytania 
+   wymuszonego programowo)
+- Czytanie j.w. sterowane rêcznie
+- Wybór czytania s³owo po s³owie lub zdanie po zdaniu.
+
+Ustalone eksperymentalnie najlepsze parametry (dla 
+danego etapu nauki) zachowane s¹ automatycznie w 
+programie do nastêpnego uruchomienia, ale mo¿na 
+zmieniaæ je nadal.
+Mile widziane bêd¹ opinie u¿ytkowników programu 
+(przesy³ane na info@L-earn.net), co pozwoli z czasem 
+opracowaæ przeciêtne optymalne dane jak i 
+zaimplementowaæ je jako wartoœci 
+pocz¹tkowe/sugerowane dla wersji u¿ytkowej 
+programu. 
+
+Opis techniczny programu:
+---------------------------------
+1. Wymagania sprzêtowe
+
+    Takie jak dla windows
+
+2. Teksty do czytania
+
+Mo¿emy zarówno otworzyæ wczeœniej napisany tekst 
+jak i samodzielnie go przygotowaæ w edytorze 
+programu Qread. Zaleca siê czytanie plików w formacie txt.
+Raczej nie ma sensu czytanie w ten sposób tabel.
+
+3. Ustawianie parametrów i metody czytania
+
+Po wybraniu z menu opcji [Szybkie czytanie -> 
+Uruchom test] nastêpuje przejœcie do menu wyboru
+parametrów. Szybkoœæ czytania zadaje siê w 
+umownych jednostkach (max 1000).
+Dostêpna jest lokalna minipomoc.
+Z ka¿dego miejsca dostêpna jest - poprzez klawisz F1
+niniejsza szersza pomoc.
+
+4. W trakcie testu (czytania)
+
+W trakcie czytania tekstów widoczne jest lokalne
+menu pozwalaj¹ce przerwaæ lub zatrzymaæ czytanie, 
+przyspieszaæ lub zwalniaæ a tak¿e prze³¹czaæ tryby
+"s³owami/ zdaniami". Gdy czytanie nastêpuje zdaniami
+spójniki s¹ na ogó³ do³¹czane do nastêpnego s³owa.
+Po zatrzymaniu czytania obliczana jest przeciêtna 
+szybkoœæ czytania w s³owach /min.
+
+5. U¿ytkowanie programu
+
+Program jest freeware - do wolnego u¿ytku.
